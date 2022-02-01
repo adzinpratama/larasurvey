@@ -48,7 +48,6 @@
         </div>
       </div>
       <div v-else-if="question.type === 'checkbox'">
-        <pre>{{ model }}</pre>
         <div
           v-for="(option, id) in question.data.options"
           :key="option.uuid"
